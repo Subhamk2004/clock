@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(45deg, #2f4214, #2c2a18) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#clock_container{
+    height: 100px;
+    width: 200px;
+    background: #f4f122;
+    border: solid 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #2b291f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
